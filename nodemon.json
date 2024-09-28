@@ -1,0 +1,10 @@
+{
+  "watch": ["template.js", "server/server.js"],
+  "ignore": ["node_modules", "dist"],
+  "ext": "js,json",
+  "exec": "babel-node ./server/server.js",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "delay": "1000"
+}
